@@ -27,7 +27,6 @@ def find_symbols_in_names():
         except Exception as e:
             pass
     dic["result"]=lst
-    print(dic)
     return jsonify(dic)
 
 
